@@ -326,7 +326,9 @@ a {
 .w-52 {
     width: 52px;
 }
-
+.h-999{
+    height: 1089px;
+}
 .h-52 {
     height: 52px;
 }
@@ -441,6 +443,9 @@ a {
 }
 .max-w-972{
     max-width: 972px;
+}
+.max-w-1444{
+    max-width: 1444px;
 }
 .h-574 {
     height: 574px;
@@ -823,6 +828,16 @@ header{
 .contact > div{
     width: 50%;
 }
+@media only screen and (min-width:1500px) {
+    .h-104vh {
+        height: 68vh;
+      }
+}
+@media only screen and (max-width:1500px) {
+    .h-104vh {
+        height: 65vh;
+      }
+}
 @media only screen and (max-width:1200px) {
     #banner {
         height: auto;
@@ -830,6 +845,7 @@ header{
       .pl-149 {
         padding-left: 0;
       }
+    
 }
 @media only screen and (max-width:992px) {
     footer{
@@ -893,7 +909,7 @@ header{
         font-size: 15px;
       }
       #banner .h-104vh{
-        height: 87vh;
+        height: 57vh;
       }
       #sell .fs-25, #about .fs-20,#form .fs-30 {
         font-size: 19px;

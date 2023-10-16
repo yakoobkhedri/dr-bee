@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/fancybox.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <link rel='stylesheet' type='text/css' media='screen' href='assets/css/styles.css'>
+  <title>صفحه اصلی</title>
+</head>
+
+<body>
+
+  <!-- thanks -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog rounded-4 main-bg p-3 text-center font-bold">
+      <div class="modal-content main-bg border-0">
+        <div class="modal-body border-0">
+          <img alt="logo" src="assets/img/logo.JPG" class="d-block img-fluid mx-auto">
+          <h5 class="text-white">از ثبت نام شما سپاسگزاریم</h5>
+          <p class="bg-yellow py-2 px-3 rounded-4 d-inline-block mb-0">به زودی با شما تماس خواهیم گرفت!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!-- header -->
+
+  <header class="py-3 position-sticky top-0 z-10 shadow">
+    <nav class="max-w-866 px-4 mx-auto w-100">
+      <div class="d-flex align-items-center justify-content-between gap-7">
+        <a href="#form" class="main-bg rounded-13 fw-bold text-yellow px-3 py-2">ثبت نام می کنم</a>
+        <svg id="hamIcon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list main-text cursor-pointer d-md-none" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+        <ul
+          class="list-unstyled flex-grow-1 mb-0 fw-bold d-md-flex align-items-center justify-content-between gap-sm-5 ">
+          <li class="d-md-none">
+            <a class="d-block">
+              <img alt="logo" src="assets/img/logo.JPG" class="d-block img-fluid mx-auto w-100">
+            </a>
+          </li>
+          <li >
+            <a class="d-flex align-items-center gap-2 main-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi d-none d-md-block bi-house-fill" viewBox="0 0 16 16">
+                <path
+                  d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z" />
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z" />
+              </svg>
+              <p class="mb-0">صفحه اصلی</p>
+            </a>
+          </li>
+          <li >
+            <a class="d-flex align-items-center gap-1 main-text">
+              <img alt="icon" src="assets/img/club.JPG" class="img-fluid w-36 d-none d-md-block">
+              <p class="mb-0">باشگاه زنبورداران</p>
+            </a>
+          </li>
+          <li >
+            <a class="d-flex align-items-center gap-1 main-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi d-none d-md-block bi-people-fill" viewBox="0 0 16 16">
+                <path
+                  d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+              </svg>
+              <p class="mb-0">درباره ما</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main>
+
+    <!-- banner -->
+    <section id="banner" class="position-relative">
+      <img alt="banner" src="assets/img/506 [Converted] copy 2.png" class="img-fluid w-100 h-104vh">
+      <div class="mx-auto w-100 max-w-866 px-4 px-md-0 text-center position-absolute end-0 start-0 top-0 mt-4">
+        <h2 class="font-bold fs-35">آیا شما هم مشکل فروش و بازاریابی محصولات تان را دارید؟</h2>
+        <p class="fs-23 mt-3 main-text">بدون یک ریال سرمایه گذاری، محصولات خود را بسته بندی شده در غرفه آنلاین تان بفروشید
+        </p>
+        <h3 class="font-bold mt-5 text-center text-lg-end px-4 px-md-0">یه غرفه به وسعت ایران زمین!</h3>
+        <div class="position-relative">
+          <img alt="banner" src="assets/img/headerPhoto.png" class="img-fluid d-block mx-auto w-75">
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="pb-5 position-relative">
+      <div class=" px-4 mt-5">
+        <div class="row g-4">
+          <div class="col-xl-7 fw-bold pl-149 text-justify fs-20">
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg main-text flex-shrink-0" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                صفر تا صد <span class="main-text fw-bold">کنترل کیفیت، بسته بندی، بازاریابی، فروش و ارسال</span> به
+                مشتریانت رو، برون سپاری کن...!
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                قدرت <span class="main-text fw-bold">بازاریابی دیجیتال رو دست کم نگیرید!!!</span> تو این دورو زمونه دیگه
+                راه اندازی مغازه مفهومی نداره...!
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                با داشتن غرفه آنلاین <span class="main-text fw-bold">رایگان</span> تو دکتر زنبور،<span
+                  class="main-text fw-bold">دایره و مرز مشتری هاتون وسیع تر میشه!</span> و زودتر محصولاتتون رو
+                میفروشید...!
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                24 ساعته در تمام هفته...تو تعطیلات و حتی تو خواب هم بفروش...<span class="fw-bold main-text">(زنبورستانت
+                  شبانه روزی بازه!!)</span>
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                بعد از هر فروش، طی حداکثر <span class="main-text fw-bold">2 هفته تسویه حساب</span> انجام میشه و آمار
+                جزئی از غرفه تان را دریافت می کنید.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                یک <span class="main-text fw-bold">موسسه تحقیقاتی و ملی با 90 سال سابقه</span> پشت تونه! دیگه دغدغه
+                اعتمادسازی برای مشتریانتون رو ندارید.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                نیاز نیست برند ثبت شده، داشته باشید!! محصولات شما رو با <span class="main-text fw-bold">نام و نشون
+                  خودتون</span> به بازار عرضه می کنیم.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                میتونی برای اینکه <span class="main-text fw-bold">مشتریان قدیمیت رو حفظ کنی</span> بهشون کد تخفیف بدی...
+                اینطوری اونها رو از دست نمیدی و هواشونو داری.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                حداقل <span class="main-text fw-bold">20 درصد درآمد بیشتر نسبت به عمده فروشی</span> و کار با دلال ها
+                گیرتون میاد...
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-5">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                class="bi bi-check-lg flex-shrink-0 main-text" viewBox="0 0 16 16">
+                <path
+                  d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z" />
+              </svg>
+              <p class="mb-0">
+                تلاش دکتر زنبور اینه که محصولات شما رو در حداقل زمان ممکن به فروش برسونه، اگر بیشتر از <span
+                  class="main-text fw-bold">3 ماه</span> طول کشید، به ازای هر روز تاخیر<span
+                  class="fw-bold main-text">100 هزار تومان از دکتر زنبور جریمه نقدی بگیرید...!</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4" data-aos-duration="2000" data-aos="fade-down">
+            <img alt="about" src="assets/img/Group 1.png" class="img-fluid d-block mx-auto">
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- video -->
+    <section class="py-4 position-relative container" data-aos="fade-up">
+      <!-- shape -->
+      <img alt="shape" src="assets/img/8155704 copy.png" class="position-absolute img-fluid z-1 w-31 top-101 end-0 d-block">
+      <!--  -->
+      <div class=" px-4">
+        <div class="border-top border-2 border-bottom border-dark py-4">
+          <p class="text-center font-extrabold main-text h4">طرح ملی هر زنبوردار یک برند</p>
+          <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid mx-auto mt-3">
+          <video controls="" class="w-75 m-auto d-block mt-3 mb-5 rounded-4">
+            <source src="assets/img/9b101ff472203cd00425adf388a54df522988226-360p.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <!-- sell -->
+    <section id="sell" class="mt-5 py-3 position-relative">
+      <!--  -->
+      <div class=" px-4">
+        <p class="text-center font-bold h4 mb-5">فروش در دکتر زنبور مناسب چه کسانی است؟</p>
+        <div class="row g-4 align-items-start pt-4">
+          <div class="col-lg-7 fw-bold fs-25">
+            <div class="d-flex gap-2 mb-4 align-items-start">
+              <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid flex-shrink-0 w-26 mt-2 rotate-90">
+              <p class="mb-4">
+                زنبوردارانی که <span class="main-text fw-bold">مشکل بازاریابی و فروش</span> بدارند.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-4 align-items-start">
+              <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid flex-shrink-0 w-26 mt-2 rotate-90">
+              <p class="mb-4">
+                زنبورداران تازه کار که <span class="main-text fw-bold">کمتر شناخته شده اند</span> و اعتبار و مشتری قدیمی
+                ندارند.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-4 align-items-start">
+              <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid flex-shrink-0 w-26 mt-2 rotate-90">
+              <p class="mb-4">
+                زنبوردارانی که به دنبال <span class="main-text fw-bold">توسعه مشتریان</span> هستند.
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-4 align-items-start">
+              <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid flex-shrink-0 w-26 mt-2 rotate-90">
+              <p class="mb-4">
+                زنبوردارانی که پیش از این با واسطه ها کار می کردند، <span class="main-text fw-bold">حالا خودشان میخواهند
+                  فروشنده باشند.</span>
+              </p>
+            </div>
+            <div class="d-flex gap-2 mb-4 align-items-start">
+              <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid flex-shrink-0 w-26 mt-2 rotate-90">
+              <p class="mb-4">
+                زنبوردارانی که <span class="main-text fw-bold">برند</span> ثبت شده ندارند.
+              </p>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <img alt="arrow" src="assets/img/down.JPG" class="d-block img-fluid flex-shrink-0 w-26 rotate-90">
+              <p class="mb-0">
+                حتی زنبوردارانی که خودشان در شهرشان <span class="main-text fw-bold">فروشگاه عرضه عسل دارند.</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <img alt="about" src="assets/img/Group 2.png" class="img-fluid d-block mx-auto" data-aos-duration="2000" data-aos="fade-up">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq -->
+    <section class="mt-5 py-5 container">
+      <div class=" px-4">
+        <div>
+          <div class="accordion font-bold" id="accordionExample" data-aos-duration="2000" data-aos="flip-left">
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header rounded-10">
+                <button class="accordion-button font-bold py-3 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  چگونه به دکتر زنبور اعتماد کنیم؟
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show bg-yellow border-bl-0 border-br-0"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body text-dark fw-light">
+                  در سامانه پرینت سه بعدی صنعت بازار به صورت آنلاین حجم ماده مصرفی، پیچیدگی قطعه و دقت انتخابی شما در
+                  محاسبه قیمت تمام شده شما توسط الگوریتم های هوشمند در نظر گرفته می شود.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button font-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  آیا مقدور است به جای کل بار، نمونه محصول فرستاده شود و سپس کل بار را ارسال کنیم!؟
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-dark fw-light">
+                  بله
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button font-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  خودتان کل بار را نمی خرید؟
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-dark fw-light">
+                  خیر
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button font-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  قیمت گذاری چگونه است و قیمت ها بر چه اساسی تعیین می شود؟
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-dark fw-light">
+                  در سامانه پرینت سه بعدی صنعت بازار به صورت آنلاین حجم ماده مصرفی، پیچیدگی قطعه و دقت انتخابی شما در
+                  محاسبه قیمت تمام شده شما توسط الگوریتم های هوشمند در نظر گرفته می شود.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button font-bold collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  چرا در مناطق یا استان های مختلف نمایندگی یا شعبه دایر نمی کنید؟
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-dark fw-light">
+                  در سامانه پرینت سه بعدی صنعت بازار به صورت آنلاین حجم ماده مصرفی، پیچیدگی قطعه و دقت انتخابی شما در
+                  محاسبه قیمت تمام شده شما توسط الگوریتم های هوشمند در نظر گرفته می شود.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- form -->
+    <section class="mt-5 pt-5 position-relative container" id="form">
+      <!-- shape -->
+      <img alt="shape" src="assets/img/8155704 copy.png"
+        class="position-absolute img-fluid z-1 w-25 start-0 top-86 d-block">
+      <!--  -->
+      <div class=" px-4">
+        <form class="main-bg rounded-4 p-3 p-md-5 pt-md-4 text-white text-center">
+          <h3 class="font-bold mb-3">ثبت نام در باشگاه زنبورداران</h3>
+          <p>اطلاعات زیر را تکمیل فرمائید تا کارشناسان دکتر زنبور با شما تماس بگیرند.</p>
+          <div class="d-flex flex-column flex-lg-row contact gap-198 justify-content-between mt-4">
+            <div data-aos="flip-left" class="order-1 order-lg-0">
+              <input placeholder="نام*" class="form-control bg-gray py-4 mb-3 rounded-4 w-100">
+              <input placeholder="نام خانوادگی*" class="form-control bg-gray py-4 mb-3 rounded-4 w-100">
+              <input placeholder="شماره همراه*" class="form-control bg-gray py-4 mb-3 rounded-4 w-100">
+              <select class="form-control bg-gray py-4 mb-3 rounded-4 w-100">
+                <option>اصفهان</option>
+                <option>کردستان</option>
+                <option>مرکزی</option>
+                <option>تهران</option>
+                <option>قم</option>
+                <option>فارس</option>
+              </select>
+              <select class="form-control bg-gray py-4 mb-3 rounded-4 w-100">
+                <option>اصفهان</option>
+                <option>سنندج</option>
+                <option>اراک</option>
+                <option>تهران</option>
+                <option>قم</option>
+                <option>شیراز</option>
+              </select>
+              <!-- <input type="submit" value="ارسال" 
+                class="bg-yellow rounded-3 border-0 fs-30 main-text fw-bold py-2 px-5 cursor-pointer d-table mx-auto mt-4"> -->
+              
+                <button type="button" class="bg-yellow rounded-4 border-0 fs-30 main-text fw-bold py-2 px-5 cursor-pointer d-table mx-auto mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                 ارسال
+                </button>
+            </div>
+            <div class="order-0 order-lg-1">
+              <img alt="contact" src="assets/img/Group 3.png" class="img-fluid w-100" data-aos="fade-up">
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- description -->
+    <section class="py-5 my-5" id="description">
+      <div class=" px-4 position-relative">
+        <div class="max-w-972 w-100 mx-auto position-relative">
+          <!-- shape -->
+          <img alt="shape" src="assets/img/image-from-rawpixel-id-12057849-original.png" data-aos="fade-down"
+            class="position-absolute img-fluid end-0 top-62 w-32 d-block">
+           <!--  -->
+        <h4 class="font-bold mt-5 pt-5 fs-26 text-justify">دکتر زنبور بنا داره از زندگی اجتماعی زنبورهای عسل الگوبرداری کنه و
+          تبدیل بشه به یک کلنی...!!</h4>
+        <h4 class="text-justify lh-lg">
+          کلنی که زنبورداران پاکدست و متعهد کشورمون، ثمره ماهها تلاش شبانه روزی خودشون رو در اونجا عرضه می کنند...اینجا
+          در واقع یک دورهمی از زنبورداران پاکدست و با صفا است که دغدغه سلامتی جامعه و تولید فرآورده های سالم رو
+          دارند...!
+        </h4>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+
+  <footer class="pt-5 pb-4 position-relative bg-yellow">
+    <!-- shape -->
+    <img alt="shape" src="assets/img/image-from-rawpixel-id-12057849-original.png"
+      class="position-absolute w-52 img-fluid end-0 start-0 top-36 rotateY-180 mx-auto d-block">
+    <!--  -->
+    <div class="container">
+      <div>
+        <div
+          class="d-flex flex-wrap flex-xl-nowrap align-items-center justify-content-md-between justify-content-center gap-3 font-bold border-b-orange pb-4">
+          <a
+            class="py-1 d-flex align-items-center justify-content-center gap-2 text-black">
+            <img alt="map" src="assets/img/maps-and-flags.png" class="img-fluid d-block w-38">
+            <p class="mb-0">کرج، خیابان شهید بهشتی، مرکز رشد موسسه تحقیقات علوم دامی کشور</p>
+          </a>
+          <div class="line d-none d-xl-block"></div>
+          <a
+            class="py-1 d-flex align-items-center justify-content-center gap-2 text-black">
+            <p class="mb-0">www.drzanboor.com</p>
+            <img alt="earth" src="assets/img/pngwing.com (90).png" class="img-fluid d-block w-38">
+          </a>
+          <div class="line d-none d-xl-block"></div>
+          <a class="py-1 d-flex align-items-center justify-content-center gap-2 text-black">
+            <p class="mb-0">02634258108</p>
+            <img alt="phone" src="assets/img/phone-icon-11549498584attf3ik674.png" class="img-fluid d-block w-38">
+          </a>
+          <a class="py-1 d-flex align-items-center justify-content-center gap-2 text-black">
+            <p class="mb-0">09389059742</p>
+            <img alt="phone" src="assets/img/smartphone.png" class="img-fluid d-block w-38">
+          </a>
+        </div>
+        <div class="row g-4 gap-2 gap-sm-4 align-items-center justify-content-center mt-5">
+          <a class="col-4 col-lg-3 col-xl-2 d-flex align-items-center justify-content-center bg-gray rounded-4 w-136 h-136">
+            <img alt="namad" src="assets/img/n1.JPG" class="img-fluid rounded-4 d-block mx-auto w-75">
+          </a>
+          <a class="col-4 col-lg-3 col-xl-2  d-flex align-items-center justify-content-center bg-gray rounded-4 w-136 h-136">
+            <img alt="namad" src="assets/img/n2.JPG" class="img-fluid rounded-4 d-block mx-auto w-75">
+          </a>
+          <a class="col-4 col-lg-3 col-xl-2  d-flex align-items-center justify-content-center bg-gray rounded-4 w-136 h-136">
+            <img alt="namad" src="assets/img/n3.JPG" class="img-fluid rounded-4 d-block mx-auto w-50">
+          </a>
+          <a class="col-4 col-lg-3 col-xl-2  d-flex align-items-center justify-content-center bg-gray rounded-4 w-136 h-136">
+            <img alt="namad" src="assets/img/n4.JPG" class="img-fluid rounded-4 d-block mx-auto w-75">
+          </a>
+          <a class="col-4 col-lg-3 col-xl-2  d-flex align-items-center justify-content-center bg-gray rounded-4 w-136 h-136">
+            <img alt="namad" src="assets/img/n5.JPG" class="img-fluid rounded-4 d-block mx-auto w-75">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/fancybox.umd.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <!-- Swiper JS -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

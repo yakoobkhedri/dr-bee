@@ -217,7 +217,7 @@ a {
     height: 100vh;
 }
 .h-104vh {
-    height: 98vh;
+    height: 70vh;
 }
 .h-2 {
     height: 2px;
@@ -828,15 +828,15 @@ header{
 .contact > div{
     width: 50%;
 }
-@media only screen and (min-width:1500px) {
+@media only screen and (min-width:1800px) {
     .h-104vh {
-        height: 68vh;
-      }
+        height: 131vh;
+      } 
 }
-@media only screen and (max-width:1500px) {
+@media only screen and (max-width:1800px) {
     .h-104vh {
-        height: 107vh;
-      }
+        height: 131vh;
+      } 
 }
 @media only screen and (max-width:1200px) {
     #banner {
@@ -845,7 +845,9 @@ header{
       .pl-149 {
         padding-left: 0;
       }
-   
+      .h-104vh {
+        height: 115vh;
+      } 
     
 }
 @media only screen and (max-width:992px) {
@@ -870,7 +872,9 @@ header{
     .accordion-header, .accordion-item .accordion-button {
         font-size: 19px!important;
     }
-  
+    .h-104vh {
+        height: 106vh;
+      }
  
 }
 
@@ -909,12 +913,12 @@ header{
       #description .lh-lg{
         font-size: 15px;
       }
-      #banner .h-104vh{
-        height: 107vh;
-      }
       #sell .fs-25, #about .fs-20,#form .fs-30 {
         font-size: 19px;
       }
+      .h-104vh {
+        height: 84vh;
+      } 
 }
 
 @media only screen and (max-width:576px) {
@@ -935,9 +939,6 @@ header{
         width: 16px;
         height: 16px;
       }
-      .accordion-header, .accordion-item .accordion-button {
-        font-size: 15px !important;
-      }
    
       #sell .fs-25,#about .fs-20 {
         font-size: 14px;
@@ -951,6 +952,12 @@ header{
       footer .w-136 .w-75,footer .w-136 .w-50 {
           width: 84%!important;
       }
+      #banner .h-104vh {
+        height: 699px;
+      }
+      .accordion-header, .accordion-item .accordion-button {
+        font-size: 15px !important;
+      }
 }
 
 @media only screen and (max-width:400px) {
@@ -960,4 +967,7 @@ header{
     footer .h-136 {
         height: 93px;
     }
+    .accordion-header, .accordion-item .accordion-button {
+        font-size: 12px !important;
+      }
 }

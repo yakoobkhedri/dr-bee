@@ -823,7 +823,12 @@ header{
     background-color: #dcdcdc;
 }
 /* banner */
-
+.bg-bee{
+    background-image: url('../img/506\ [Converted]\ copy\ 2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* form */
 .contact > div{
     width: 50%;
